@@ -6,7 +6,7 @@ from tensorboardX import SummaryWriter
 from N_Net import NNet
 from options import args
 from utils import mkdir, build_dataset, Visualizer  # build_model,
-from SRF_Net import SRF_UNet
+from New_Net import SRF_UNet
 # from second_stage import fusion
 # from losses import build_loss
 from train import train_first_stage
